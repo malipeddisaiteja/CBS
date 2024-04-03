@@ -1,0 +1,16 @@
+nav{
+    text-align: center;
+    background-color: rgb(0, 59, 126);
+    width: auto;
+    height: 60px;
+}
+.nl{
+    color: rgb(255, 255, 255);
+    margin-right:40px;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 2px;
+}
+.nl:hover{
+    color: yellow;
+}

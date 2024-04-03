@@ -1,0 +1,48 @@
+.acform {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .acform h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .acform label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .acform input[type="text"],
+  .acform select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .acform input[type="submit"] {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .acform input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .acform input[type="submit"]:focus {
+    outline: none;
+  }
+  
+  

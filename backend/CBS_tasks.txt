@@ -1,0 +1,28 @@
+3. Core Banking System (CBS)- Create a Core Banking Application (CBS) for a bank in which both the bank employees and customer will participate to perform the basic banking activities as listed below.
+
+·Online Customer Account Opening-  Allow users to apply for online account opening, 
+·Account Management: Provide functionality to perform credits and debits by the bank employee.
+·Balance Inquiry: Allow users to check their account balances and view transaction history.
+·Fund Transfer: Enable users to transfer funds between their own accounts or to other users' accounts within the same bank.
+·Account Statement Generation: Generate account statements that summarize t	ransactions within a specific period.
+·Interest Calculation: Implement interest calculation for savings accounts.
+·Account Closure: Facilitate the users to raise a request to close their account.  
+
+CBS:-
+Create Postman Get and Post API calls to simulate the below steps as part of the demo
+1. Authenticate  and Authorize the API calls with predefined ID and Password
+2. Demonstrate that there are no exisitng accounts and statements in the DB
+3. Create Customer by sending a POST request to the appropriate endpoint.
+    3.1 Include customer details such as name, address, contact information, and initial balance.
+    3.2 Account ID and Account Type should get associated with customer or accounts table
+    Note: one customer can have multiple bank accounts, at that time we need to maintain the customer and accounts table seperate to handle one           customer and multiple bank accounts, for this project this feature is excluded
+4. Demonstrate Deposits and Withdrawals. The account balance should get updated accordingly and transactions in the transaction table
+5. Demo the Balance Inquiry feature by sending a GET request to retrieve the account balance.
+
+6. Show the Transaction History for an account using a GET request.
+7. Simulate fund transfers between accounts by sending a POST request with source and destination account information along with the transfer amount.
+8. Show the interest calculation entries on quarterly basis as per banking norms
+9. Generate the monthly account statement in PDF format
+
+
+10. Implement account closure by sending a DELETE request for the specified account.
